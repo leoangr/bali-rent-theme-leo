@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <header>
+            <nav class="card-header">
+                <div class="box-header box-head">
+
+                    <a href="/" class="logo-text">
+                        Bali<span class="text-sunset-orange">Ride</span>
+                    </a>
+
+                    <!-- <div class="list-menu">
+                        <a href="#vehicles">Vehicles</a>
+                        <a href="#about">About</a>
+                        <a href="#faq">FAQ</a>
+                        <a href="#contact">Contact</a>
+                    </div> -->
+
+                    <div class="menu-mobile">
+                        <button class="menu-icon">
+                            <span id="icon-menu">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.5 12H19.5" stroke="currentColor" stroke-width="1.5"
+                                        stroke-miterlimit="10" stroke-linecap="round" />
+                                    <path d="M4.5 17.7692H19.5" stroke="currentColor" stroke-width="1.5"
+                                        stroke-miterlimit="10" stroke-linecap="round" />
+                                    <path d="M4.5 6.23077H19.5" stroke="currentColor" stroke-width="1.5"
+                                        stroke-miterlimit="10" stroke-linecap="round" />
+                                </svg>
+                            </span>
+
+                            <span id="icon-close" class="hide">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19 5L5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M19 19L5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                        </button>
+
+                    </div>
+
+                </div>
+            </nav>
+            <div class="list-menu-mobile box-head" id="list-mobile-menu">
+                <div class="menu-mobile-head">
+                    <a href="/" class="logo-text mobile">
+                        Bali<span class="text-sunset-orange">Ride</span>
+                    </a>
+                    <span id="icon-close" class="hide icon-close-mobile">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M19 5L5 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M19 19L5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+                <a href="#vehicles" class="ls-m first">Vehicles</a>
+                <a href="#about" class="ls-m">About</a>
+                <a href="#faq" class="ls-m">FAQ</a>
+                <a href="#contact" class="ls-m">Contact</a>
+            </div>
+        </header>
+
+        hero banner
+        <section class="hero">
+            <img src="http://localhost/wp-theme/wp-content/uploads/2026/04/hero-bali-DBLXClSy.jpg" alt="Hero Banner">
+            <div class="bg-shadow"></div>
+            <div class="box-tagline">
+                <h1>Explore Bali with Ease</h1>
+                <p>Affordable motorbike & car rental in Bali</p>
+                <a href="https://wa.me/6281234567890?text=Hi%20BaliRide%2C%20I%20want%20to%20rent%20a%20vehicle"
+                    class="btn-wa-head">
+                    <span>
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M21.25 12C21.2516 13.2141 21.0135 14.4167 20.5493 15.5389C20.0852 16.6611 19.4041 17.6809 18.545 18.54C17.6859 19.3991 16.6656 20.0806 15.5426 20.5456C14.4196 21.0106 13.2158 21.25 12 21.25C10.6915 21.2531 9.39742 20.9767 8.20459 20.4394L4.33751 21.0116C4.14525 21.0433 3.94812 21.0275 3.76336 20.9656C3.57861 20.9037 3.41183 20.7976 3.27761 20.6565C3.14339 20.5154 3.04581 20.3436 2.99339 20.1562C2.94096 19.9687 2.93529 19.7713 2.97688 19.5812L3.51397 15.6595C3.00433 14.5069 2.74404 13.2599 2.7501 12C2.74854 10.7858 2.98663 9.58326 3.45079 8.46107C3.91494 7.33888 4.59603 6.31908 5.45513 5.45998C6.31422 4.60088 7.33446 3.91935 8.45749 3.45434C9.58052 2.98934 10.7843 2.75 12 2.75C13.2158 2.75 14.4196 2.98934 15.5426 3.45434C16.6656 3.91935 17.6859 4.60088 18.545 5.45998C19.4041 6.31908 20.0852 7.33888 20.5493 8.46107C21.0135 9.58326 21.2516 10.7858 21.25 12Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    Book via WhatsApp
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Vehicles -->
+        <section class="option-card">
+            <div class="card-title-option">
+                <h1>Featured Vehicles</h1>
+                <p>Our most popular rides loved by travelers</p>
+            </div>
+            <ul class="responsive-list">
+                <li>
+                    <div class="card-product">
+                        <div class="img-product">
+                            <img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=600&h=400&fit=crop"
+                                alt="product">
+                        </div>
+                        <div class="card-info-product">
+                            <div class="info-short-product ">
+                                <h2>Yamaha NMAX 155</h2>
+                                <div class="info-detail-opt">
+                                    <span>Automatic</span>
+                                    <span>2 seats</span>
+                                    <span>155 cc</span>
+                                </div>
+                            </div>
+                            <div class="info-more-product">
+                                <div class="price-product">
+                                    IDR 100.000/
+                                    <span>day</span>
+                                </div>
+                                <div class="btn-detail">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-product">
+                        <div class="img-product">
+                            <img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=600&h=400&fit=crop"
+                                alt="product">
+                        </div>
+                        <div class="card-info-product">
+                            <div class="info-short-product ">
+                                <h2>Yamaha NMAX 155</h2>
+                                <div class="info-detail-opt">
+                                    <span>Automatic</span>
+                                    <span>2 seats</span>
+                                    <span>155 cc</span>
+                                </div>
+                            </div>
+                            <div class="info-more-product">
+                                <div class="price-product">
+                                    IDR 100.000/
+                                    <span>day</span>
+                                </div>
+                                <div class="btn-detail">
+                                    <a href="#">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- All Vehicles -->
+        <section class="option-card bg">
+            <div class="card-title-option">
+                <h1>Vehicles</h1>
+            </div>
+            <div class="all-vehicles-tools-box">
+                <div class="list-bar-btn">
+                    <button data-id="all" class="active">All Vehicles</button>
+                    <button data-id="motorbikes">Motorbikes</button>
+                    <button data-id="cars">Cars</button>
+                </div>
+                <div class="search-box">
+                    <span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.7828 18.8276C12.3741 18.8298 13.9302 18.3601 15.2544 17.4781C16.5785 16.596 17.6112 15.3413 18.2216 13.8726C18.832 12.4039 18.9929 10.7872 18.6837 9.2271C18.3746 7.66702 17.6093 6.23364 16.4849 5.10831C15.3604 3.98299 13.9272 3.2163 12.3666 2.90525C10.8061 2.5942 9.18823 2.75277 7.71786 3.3609C6.24748 3.96902 4.99062 4.99937 4.10632 6.32158C3.22202 7.64379 2.75 9.19844 2.75 10.7888C2.75 12.919 3.59596 14.9621 5.10209 16.4693C6.60821 17.9766 8.65135 18.8248 10.7828 18.8276Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M16.4883 16.491L21.25 21.25" stroke="currentColor" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <input type="text" id="search-product" placeholder="Search vehicles...">
+                </div>
+            </div>
+            <div class="responsive-list list-all-product">
+                <div data-category="motorbikes" class="card-product">
+                    <div class="img-product">
+                        <img src="https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=600&h=400&fit=crop"
+                            alt="product">
+                    </div>
+                    <div class="card-info-product">
+                        <div class="info-short-product ">
+                            <h2 class="title">Yamaha NMAX 155</h2>
+                            <div class="info-detail-opt">
+                                <span>Automatic</span>
+                                <span>2 seats</span>
+                                <span>155 cc</span>
+                            </div>
+                        </div>
+                        <div class="info-more-product">
+                            <div class="price-product">
+                                IDR 100.000/
+                                <span>day</span>
+                            </div>
+                            <div class="btn-detail">
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-category="cars" class="card-product">
+                    <div class="img-product">
+                        <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600&h=400&fit=crop"
+                            alt="product">
+                    </div>
+                    <div class="card-info-product">
+                        <div class="info-short-product ">
+                            <h2 class="title">Suzuki Jimny</h2>
+                            <div class="info-detail-opt">
+                                <span>Automatic</span>
+                                <span>4 seats</span>
+                                <span>1500 cc</span>
+                            </div>
+                        </div>
+                        <div class="info-more-product">
+                            <div class="price-product">
+                                IDR 500.000/
+                                <span>day</span>
+                            </div>
+                            <div class="btn-detail">
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- why choose us -->
+        <section class="option-card bg">
+            <div class="card-title-option">
+                <h1>Why Choose Us</h1>
+                <p>Everything you need for a perfect Bali trip</p>
+            </div>
+            <div class="responsive-list">
+                <div class="card-shadow card-why-us">
+                    <span class="icon-cu green">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-dollar-sign w-7 h-7">
+                            <line x1="12" x2="12" y1="2" y2="22"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </span>
+                    <h3 class="title-cu">Affordable Price</h3>
+                    <p class="desc-cu">Best rates guaranteed for all vehicles</p>
+                </div>
+                <div class="card-shadow card-why-us">
+                    <span class="icon-cu orange">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-zap w-7 h-7">
+                            <path
+                                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                            </path>
+                        </svg>
+                    </span>
+                    <h3 class="title-cu">Easy Booking</h3>
+                    <p class="desc-cu">Book in seconds via WhatsApp</p>
+                </div>
+                <div class="card-shadow card-why-us">
+                    <span class="icon-cu blue">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-shield w-7 h-7">
+                            <path
+                                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                            </path>
+                        </svg>
+                    </span>
+                    <h3 class="title-cu">Trusted Service</h3>
+                    <p class="desc-cu">Thousands of happy customers</p>
+                </div>
+                <div class="card-shadow card-why-us">
+                    <span class="icon-cu green">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-message-circle w-7 h-7">
+                            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+                        </svg>
+                    </span>
+                    <h3 class="title-cu">Fast Response</h3>
+                    <p class="desc-cu">We reply within minutes</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- what our customer say -->
+        <section class="option-card">
+            <div class="card-title-option">
+                <h1>What Our Customers Say</h1>
+                <p>Real reviews from real travelers</p>
+            </div>
+            <div class="responsive-list">
+                <div class="card-shadow card-cust-say">
+                    <div class="list-star-rate">
+                        <span class="star-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1358_595)">
+                                    <path
+                                        d="M21.95 10.605C21.87 10.934 21.6964 11.2328 21.45 11.465L18.15 14.685C18.1166 14.7201 18.0895 14.7607 18.07 14.805C18.0603 14.8512 18.0603 14.8988 18.07 14.945L18.85 19.505C18.9151 19.8409 18.8804 20.1886 18.75 20.505C18.6296 20.8176 18.4168 21.0862 18.14 21.275C17.871 21.4735 17.5529 21.5945 17.22 21.625H17.09C16.7969 21.6256 16.5083 21.5535 16.25 21.415L12.15 19.275C12.1074 19.2504 12.0591 19.2375 12.01 19.2375C11.9608 19.2375 11.9126 19.2504 11.87 19.275L7.77 21.425C7.46245 21.586 7.11633 21.6587 6.77 21.635C6.43365 21.6063 6.11179 21.4852 5.84 21.285C5.56581 21.0892 5.354 20.8183 5.23 20.505C5.10347 20.1877 5.06881 19.8411 5.12999 19.505L5.91 14.955C5.92455 14.9095 5.92455 14.8605 5.91 14.815C5.89445 14.7709 5.8707 14.7302 5.84 14.695L2.54 11.455C2.30026 11.2232 2.13048 10.9287 2.05 10.605C1.95273 10.2788 1.95273 9.93128 2.05 9.60504C2.15993 9.28394 2.35793 9.0002 2.62139 8.78625C2.88486 8.5723 3.20317 8.43672 3.54 8.39502L8.04 7.73504C8.08483 7.73391 8.12762 7.71603 8.16 7.68499C8.19811 7.65579 8.22892 7.61815 8.25 7.57501L10.35 3.39502C10.4934 3.09519 10.7188 2.84212 11 2.66503C11.2136 2.53016 11.4533 2.44198 11.7034 2.40637C11.9535 2.37076 12.2083 2.38847 12.451 2.45837C12.6938 2.52827 12.919 2.64879 13.1118 2.81195C13.3047 2.9751 13.4608 3.17721 13.57 3.40502L15.65 7.565C15.6751 7.61118 15.7091 7.65195 15.75 7.68499C15.7864 7.71596 15.8322 7.73365 15.88 7.73504L20.45 8.39502C20.7822 8.44548 21.0939 8.58748 21.35 8.80505C21.6013 9.02205 21.791 9.30142 21.9 9.61505C22.0064 9.93435 22.0237 10.2766 21.95 10.605Z"
+                                        fill="currentColor" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1358_595">
+                                        <rect width="20" height="19.21" fill="white" transform="translate(2 2.39502)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                        <span class="star-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1358_595)">
+                                    <path
+                                        d="M21.95 10.605C21.87 10.934 21.6964 11.2328 21.45 11.465L18.15 14.685C18.1166 14.7201 18.0895 14.7607 18.07 14.805C18.0603 14.8512 18.0603 14.8988 18.07 14.945L18.85 19.505C18.9151 19.8409 18.8804 20.1886 18.75 20.505C18.6296 20.8176 18.4168 21.0862 18.14 21.275C17.871 21.4735 17.5529 21.5945 17.22 21.625H17.09C16.7969 21.6256 16.5083 21.5535 16.25 21.415L12.15 19.275C12.1074 19.2504 12.0591 19.2375 12.01 19.2375C11.9608 19.2375 11.9126 19.2504 11.87 19.275L7.77 21.425C7.46245 21.586 7.11633 21.6587 6.77 21.635C6.43365 21.6063 6.11179 21.4852 5.84 21.285C5.56581 21.0892 5.354 20.8183 5.23 20.505C5.10347 20.1877 5.06881 19.8411 5.12999 19.505L5.91 14.955C5.92455 14.9095 5.92455 14.8605 5.91 14.815C5.89445 14.7709 5.8707 14.7302 5.84 14.695L2.54 11.455C2.30026 11.2232 2.13048 10.9287 2.05 10.605C1.95273 10.2788 1.95273 9.93128 2.05 9.60504C2.15993 9.28394 2.35793 9.0002 2.62139 8.78625C2.88486 8.5723 3.20317 8.43672 3.54 8.39502L8.04 7.73504C8.08483 7.73391 8.12762 7.71603 8.16 7.68499C8.19811 7.65579 8.22892 7.61815 8.25 7.57501L10.35 3.39502C10.4934 3.09519 10.7188 2.84212 11 2.66503C11.2136 2.53016 11.4533 2.44198 11.7034 2.40637C11.9535 2.37076 12.2083 2.38847 12.451 2.45837C12.6938 2.52827 12.919 2.64879 13.1118 2.81195C13.3047 2.9751 13.4608 3.17721 13.57 3.40502L15.65 7.565C15.6751 7.61118 15.7091 7.65195 15.75 7.68499C15.7864 7.71596 15.8322 7.73365 15.88 7.73504L20.45 8.39502C20.7822 8.44548 21.0939 8.58748 21.35 8.80505C21.6013 9.02205 21.791 9.30142 21.9 9.61505C22.0064 9.93435 22.0237 10.2766 21.95 10.605Z"
+                                        fill="currentColor" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1358_595">
+                                        <rect width="20" height="19.21" fill="white" transform="translate(2 2.39502)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                    </div>
+                    <p class="desc-cust">"Amazing service! The scooter was in perfect condition and delivered right to
+                        our villa. Highly recommend!"</p>
+                    <h4 class="user-cust">Sarah M.</h4>
+                </div>
+                <div class="card-shadow card-cust-say">
+                    <div class="list-star-rate">
+                        <span class="star-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1358_595)">
+                                    <path
+                                        d="M21.95 10.605C21.87 10.934 21.6964 11.2328 21.45 11.465L18.15 14.685C18.1166 14.7201 18.0895 14.7607 18.07 14.805C18.0603 14.8512 18.0603 14.8988 18.07 14.945L18.85 19.505C18.9151 19.8409 18.8804 20.1886 18.75 20.505C18.6296 20.8176 18.4168 21.0862 18.14 21.275C17.871 21.4735 17.5529 21.5945 17.22 21.625H17.09C16.7969 21.6256 16.5083 21.5535 16.25 21.415L12.15 19.275C12.1074 19.2504 12.0591 19.2375 12.01 19.2375C11.9608 19.2375 11.9126 19.2504 11.87 19.275L7.77 21.425C7.46245 21.586 7.11633 21.6587 6.77 21.635C6.43365 21.6063 6.11179 21.4852 5.84 21.285C5.56581 21.0892 5.354 20.8183 5.23 20.505C5.10347 20.1877 5.06881 19.8411 5.12999 19.505L5.91 14.955C5.92455 14.9095 5.92455 14.8605 5.91 14.815C5.89445 14.7709 5.8707 14.7302 5.84 14.695L2.54 11.455C2.30026 11.2232 2.13048 10.9287 2.05 10.605C1.95273 10.2788 1.95273 9.93128 2.05 9.60504C2.15993 9.28394 2.35793 9.0002 2.62139 8.78625C2.88486 8.5723 3.20317 8.43672 3.54 8.39502L8.04 7.73504C8.08483 7.73391 8.12762 7.71603 8.16 7.68499C8.19811 7.65579 8.22892 7.61815 8.25 7.57501L10.35 3.39502C10.4934 3.09519 10.7188 2.84212 11 2.66503C11.2136 2.53016 11.4533 2.44198 11.7034 2.40637C11.9535 2.37076 12.2083 2.38847 12.451 2.45837C12.6938 2.52827 12.919 2.64879 13.1118 2.81195C13.3047 2.9751 13.4608 3.17721 13.57 3.40502L15.65 7.565C15.6751 7.61118 15.7091 7.65195 15.75 7.68499C15.7864 7.71596 15.8322 7.73365 15.88 7.73504L20.45 8.39502C20.7822 8.44548 21.0939 8.58748 21.35 8.80505C21.6013 9.02205 21.791 9.30142 21.9 9.61505C22.0064 9.93435 22.0237 10.2766 21.95 10.605Z"
+                                        fill="currentColor" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1358_595">
+                                        <rect width="20" height="19.21" fill="white" transform="translate(2 2.39502)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                        <span class="star-icon">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1358_595)">
+                                    <path
+                                        d="M21.95 10.605C21.87 10.934 21.6964 11.2328 21.45 11.465L18.15 14.685C18.1166 14.7201 18.0895 14.7607 18.07 14.805C18.0603 14.8512 18.0603 14.8988 18.07 14.945L18.85 19.505C18.9151 19.8409 18.8804 20.1886 18.75 20.505C18.6296 20.8176 18.4168 21.0862 18.14 21.275C17.871 21.4735 17.5529 21.5945 17.22 21.625H17.09C16.7969 21.6256 16.5083 21.5535 16.25 21.415L12.15 19.275C12.1074 19.2504 12.0591 19.2375 12.01 19.2375C11.9608 19.2375 11.9126 19.2504 11.87 19.275L7.77 21.425C7.46245 21.586 7.11633 21.6587 6.77 21.635C6.43365 21.6063 6.11179 21.4852 5.84 21.285C5.56581 21.0892 5.354 20.8183 5.23 20.505C5.10347 20.1877 5.06881 19.8411 5.12999 19.505L5.91 14.955C5.92455 14.9095 5.92455 14.8605 5.91 14.815C5.89445 14.7709 5.8707 14.7302 5.84 14.695L2.54 11.455C2.30026 11.2232 2.13048 10.9287 2.05 10.605C1.95273 10.2788 1.95273 9.93128 2.05 9.60504C2.15993 9.28394 2.35793 9.0002 2.62139 8.78625C2.88486 8.5723 3.20317 8.43672 3.54 8.39502L8.04 7.73504C8.08483 7.73391 8.12762 7.71603 8.16 7.68499C8.19811 7.65579 8.22892 7.61815 8.25 7.57501L10.35 3.39502C10.4934 3.09519 10.7188 2.84212 11 2.66503C11.2136 2.53016 11.4533 2.44198 11.7034 2.40637C11.9535 2.37076 12.2083 2.38847 12.451 2.45837C12.6938 2.52827 12.919 2.64879 13.1118 2.81195C13.3047 2.9751 13.4608 3.17721 13.57 3.40502L15.65 7.565C15.6751 7.61118 15.7091 7.65195 15.75 7.68499C15.7864 7.71596 15.8322 7.73365 15.88 7.73504L20.45 8.39502C20.7822 8.44548 21.0939 8.58748 21.35 8.80505C21.6013 9.02205 21.791 9.30142 21.9 9.61505C22.0064 9.93435 22.0237 10.2766 21.95 10.605Z"
+                                        fill="currentColor" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1358_595">
+                                        <rect width="20" height="19.21" fill="white" transform="translate(2 2.39502)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </span>
+                    </div>
+                    <p class="desc-cust">"Best rental experience in Bali. Great prices and the WhatsApp booking was so
+                        convenient!"</p>
+                    <h4 class="user-cust">James K.</h4>
+                </div>
+            </div>
+        </section>
+
+        <!-- faq -->
+        <section class="option-card bg">
+            <div class="card-title-option">
+                <h1>Frequently Asked Questions</h1>
+                <p>Everything you need to know</p>
+            </div>
+            <div class="list-faq">
+                <div class="card-faq">
+                    <button class="btn-faq">
+                        What document do i need to rent
+                        <span class="icon-chevron">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4 8.41693L10.5866 15.0037C10.9633 15.375 11.471 15.5831 12 15.5831C12.529 15.5831 13.0367 15.375 13.4134 15.0037L20 8.41693"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </button>
+                    <p class="content-faq">You need a valid ID/passport and an international driving license for
+                        motorbikes.</p>
+                </div>
+                <div class="card-faq">
+                    <button class="btn-faq">
+                        Is insurance included?
+                        <span class="icon-chevron">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4 8.41693L10.5866 15.0037C10.9633 15.375 11.471 15.5831 12 15.5831C12.529 15.5831 13.0367 15.375 13.4134 15.0037L20 8.41693"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </span>
+                    </button>
+                    <p class="content-faq">
+                        Yes, basic insurance is included with all rentals.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Find us -->
+        <section class="option-card">
+            <div class="card-title-option">
+                <h1>Find Us in Bali</h1>
+                <p>Pick up your ride at our convenient location</p>
+            </div>
+            <div class="box-map">
+                <iframe title="BaliRide Location"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126148.0968!2d115.1!3d-8.65!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409b0346e98d%3A0x405714298789600!2sBali!5e0!3m2!1sen!2sid!4v1"
+                    frameborder="0" width="100%" height="400" allowFullScreen loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="card-location">
+                <span>
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 13.6324C15.0051 13.6324 17.4412 11.1963 17.4412 8.19118C17.4412 5.1861 15.0051 2.75 12 2.75C8.99492 2.75 6.55882 5.1861 6.55882 8.19118C6.55882 11.1963 8.99492 13.6324 12 13.6324Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12 13.6324V21.25" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </span>
+                <p>Kuta, Bali, Indonesia</p>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="option-card bg">
+            <div class="footer-top">
+                <div class="option-card-footer">
+                    <a href="/" class="logo-text">
+                        Bali<span class="text-sunset-orange">Ride</span>
+                    </a>
+                    <p class="desc-option-card-footer">Your trusted vehicle rental partner in Bali. Explore the island
+                        with comfort and style.</p>
+                </div>
+                <div class="option-card-footer">
+                    <h4 class="title-links-footer">Quick Links</h4>
+                    <div class="list-footer-links">
+                        <a href="#home">Home</a>
+                        <a href="#vehicles">Vehicles</a>
+                        <a href="#about">About</a>
+                        <a href="#faq">FAQ</a>
+                    </div>
+                </div>
+                <div class="option-card-footer">
+                    <h4 class="title-links-footer">Contact</h4>
+                    <div class="list-footer-links">
+                        <p class="desc-option-card-footer">Kuta, Bali, Indonesia</p>
+                        <a href="https://wa.me/6281234567890?text=Hi%20BaliRide%2C%20I%20want%20to%20rent%20a%20vehicle"
+                            class="btn-wa-footer">
+                            <span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.25 12C21.2516 13.2141 21.0135 14.4167 20.5493 15.5389C20.0852 16.6611 19.4041 17.6809 18.545 18.54C17.6859 19.3991 16.6656 20.0806 15.5426 20.5456C14.4196 21.0106 13.2158 21.25 12 21.25C10.6915 21.2531 9.39742 20.9767 8.20459 20.4394L4.33751 21.0116C4.14525 21.0433 3.94812 21.0275 3.76336 20.9656C3.57861 20.9037 3.41183 20.7976 3.27761 20.6565C3.14339 20.5154 3.04581 20.3436 2.99339 20.1562C2.94096 19.9687 2.93529 19.7713 2.97688 19.5812L3.51397 15.6595C3.00433 14.5069 2.74404 13.2599 2.7501 12C2.74854 10.7858 2.98663 9.58326 3.45079 8.46107C3.91494 7.33888 4.59603 6.31908 5.45513 5.45998C6.31422 4.60088 7.33446 3.91935 8.45749 3.45434C9.58052 2.98934 10.7843 2.75 12 2.75C13.2158 2.75 14.4196 2.98934 15.5426 3.45434C16.6656 3.91935 17.6859 4.60088 18.545 5.45998C19.4041 6.31908 20.0852 7.33888 20.5493 8.46107C21.0135 9.58326 21.2516 10.7858 21.25 12Z"
+                                        stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </span>
+                            Book via WhatsApp
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright" id="copyright"></p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+<script>
+    // menu bar
+    const runOpenMenu = () => {
+        const buttonMenu = document.getElementById('icon-menu');
+        const buttonClose = document.querySelectorAll('#icon-close');
+        const listMenuMobile = document.getElementById('list-mobile-menu');
+        const linksMobile = document.querySelectorAll('.ls-m');
+
+        if (buttonMenu && listMenuMobile) {
+            buttonMenu.addEventListener('click', () => {
+                buttonMenu.classList.add('hide');
+                listMenuMobile.classList.add('active');
+
+                buttonClose.forEach(item => item.classList.remove('hide'));
+            });
+        }
+
+        if (buttonClose.length) {
+            buttonClose.forEach(item => {
+                item.addEventListener('click', () => {
+                    if (buttonMenu) buttonMenu.classList.remove('hide');
+                    if (listMenuMobile) listMenuMobile.classList.remove('active');
+
+                    buttonClose.forEach(btn => btn.classList.add('hide'));
+                });
+            });
+        }
+
+        if (linksMobile.length) {
+            linksMobile.forEach(item => {
+                item.addEventListener('click', () => {
+                    if (buttonMenu) buttonMenu.classList.remove('hide');
+                    if (listMenuMobile) listMenuMobile.classList.remove('active');
+
+                    buttonClose.forEach(btn => btn.classList.add('hide'));
+                });
+            });
+        }
+    };
+
+    // tabs
+    const runSelectVehicle = () => {
+        const buttonSelectList = document.querySelectorAll(".list-bar-btn button");
+        const listAllProduct = document.querySelectorAll(".list-all-product .card-product");
+        const searchInput = document.getElementById("search-product");
+
+        if (!buttonSelectList.length && !listAllProduct.length && !searchInput) return;
+
+        let activeCategory = "all";
+
+        function filterItems() {
+            const searchValue = searchInput ? searchInput.value.toLowerCase() : "";
+
+            listAllProduct.forEach(item => {
+                const category = item.getAttribute("data-category");
+                const title = item.querySelector(".title");
+                const text = title ? title.textContent.toLowerCase() : "";
+
+                const matchCategory = activeCategory === "all" || category === activeCategory;
+                const matchSearch = text.includes(searchValue);
+
+                item.classList.toggle('hidden', !(matchCategory && matchSearch));
+            });
+        }
+
+        if (buttonSelectList.length) {
+            buttonSelectList.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    buttonSelectList.forEach(b => b.classList.remove('active'));
+
+                    btn.classList.add('active');
+                    activeCategory = btn.getAttribute('data-id') || "all";
+
+                    filterItems();
+                });
+            });
+        }
+
+        if (searchInput) {
+            searchInput.addEventListener("input", filterItems);
+        }
+    };
+
+    // faq
+    const runOpenFaq = () => {
+        const cardFaq = document.querySelectorAll('.card-faq');
+
+        if (!cardFaq.length) return;
+
+        cardFaq.forEach(btn => {
+            const button = btn.querySelector('.btn-faq');
+            const icon = btn.querySelector('span');
+            const content = btn.querySelector('.content-faq');
+
+            if (!button || !icon || !content) return;
+
+            button.addEventListener('click', () => {
+                icon.classList.toggle('rotate');
+                content.classList.toggle('active');
+            });
+        });
+    };
+
+    // copyright
+    const runCopyright = () => {
+        const tagCopyright = document.getElementById('copyright');
+
+        if (tagCopyright) {
+            const timeYear = new Date().getFullYear();
+            tagCopyright.innerHTML = `&copy; ${timeYear} BaliRide. All rights reserved.`;
+        }
+    };
+
+    document.addEventListener("DOMContentLoaded", () => {
+        runSelectVehicle();
+        runOpenMenu();
+        runOpenFaq();
+        runCopyright();
+    });
+</script>
+
+</html>
