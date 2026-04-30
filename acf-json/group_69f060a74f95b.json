@@ -106,7 +106,7 @@
                 "class": "",
                 "id": ""
             },
-            "message": "",
+            "message": "active",
             "default_value": 0,
             "allow_in_bindings": 0,
             "ui": 0,
@@ -135,5 +135,5 @@
     "display_title": "",
     "allow_ai_access": false,
     "ai_description": "",
-    "modified": 1777521654
+    "modified": 1777531516
 }

@@ -84,7 +84,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "081234567890",
+            "default_value": "+6281234567890",
             "maxlength": "",
             "allow_in_bindings": 0,
             "placeholder": "",
@@ -126,7 +126,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Kuta, Bali, Indonesia",
             "maxlength": "",
             "allow_in_bindings": 0,
             "placeholder": "",
@@ -147,7 +147,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d126148.0968!2d115.1!3d-8.65!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2409b0346e98d%3A0x405714298789600!2sBali!5e0!3m2!1sen!2sid!4v1",
             "allow_in_bindings": 0,
             "placeholder": ""
         },
@@ -165,7 +165,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Your trusted vehicle rental partner in Bali. Explore the island with comfort and style",
             "maxlength": "",
             "allow_in_bindings": 0,
             "rows": "",
@@ -194,5 +194,5 @@
     "display_title": "",
     "allow_ai_access": false,
     "ai_description": "",
-    "modified": 1777522355
+    "modified": 1777531674
 }
