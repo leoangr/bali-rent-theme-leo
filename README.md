@@ -17,8 +17,18 @@ Custom WordPress theme for vehicle rental business (motorbike & car rental in Ba
 
 ## Installation
 - Download the ZIP file.
-- Upload it to WordPress (Appearance → Themes → Add New → Upload Theme).
-- Activate the theme.
+- Install required plugins: Advanced Custom Fields, Classic Editor
+- Upload and activate the theme (Appearance → Themes → Add New → Upload Theme)
+- Sync ACF fields:
+ - Go to ACF → Field Groups
+ - Click Sync Available
+ - Select all → Bulk Actions → Sync → Apply
+- Add content:
+ - Go to Pages → Front Page (edit global content like hero banner, text, etc.)
+ - Go to Vehicles (add vehicle data & categories)
+ - Go to Testimonials (add customer reviews)
+ - Go to Why Choose Us (add advantages/info)
+ - Go to FAQ (add frequently asked questions)
 
 #### Author
 [Leo Anggoro](https://leoanggoro.my.id/tree)
