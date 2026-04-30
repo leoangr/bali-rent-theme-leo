@@ -1002,6 +1002,7 @@ footer {
     font-size: 14px;
     font-family: var(--poppins);
     color: var(--accent);
+    text-align: center;
 }
 
 .spec-card .text-info-detail.second-info {

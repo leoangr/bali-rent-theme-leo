@@ -21,13 +21,6 @@
                     Bali<span class="text-sunset-orange">Ride</span>
                 </a>
 
-                <!-- <div class="list-menu">
-                        <a href="#vehicles">Vehicles</a>
-                        <a href="#about">About</a>
-                        <a href="#faq">FAQ</a>
-                        <a href="#contact">Contact</a>
-                    </div> -->
-
                 <div class="menu-mobile">
                     <button class="menu-icon">
                         <span id="icon-menu">
@@ -71,11 +64,11 @@
                     </svg>
                 </span>
             </div>
-            <a href="#home" class="ls-m first">Home</a>
-            <a href="#vehicles" class="ls-m">Vehicles</a>
-            <a href="#about" class="ls-m">About</a>
-            <a href="#faq" class="ls-m">FAQ</a>
-            <a href="#contact" class="ls-m">Contact</a>
+            <a href="/#home" class="ls-m first">Home</a>
+            <a href="/#vehicles" class="ls-m">Vehicles</a>
+            <a href="/#about" class="ls-m">About</a>
+            <a href="/#faq" class="ls-m">FAQ</a>
+            <a href="/#contact" class="ls-m">Contact</a>
         </div>
     </header>
 

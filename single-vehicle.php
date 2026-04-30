@@ -38,7 +38,7 @@ if (!empty($option_image2)) {
         <div class="detail-left">
             <div class="gallery">
                 <div class="main-image">
-                    <?php the_post_thumbnail('large', ['id' => 'main-image-data']); ?>
+                    <img src="<?php echo get_the_post_thumbnail_url(get_the_ID(), 'large'); ?>" id="main-image-data">
                 </div>
                 <div class="list-option-gallery">
                     <?php foreach ($images as $index => $img): ?>
@@ -134,7 +134,7 @@ if (!empty($option_image2)) {
             </div>
             <div class="card-more-detail">
                 <h4>Pickup Location</h4>
-                <p><?php echo $location; ?></p>
+                <p><?php echo esc_html($location); ?></p>
             </div>
             <a target="_blank" href="https://wa.me/<?php echo $wa; ?>?text=Hi%20BaliRide%2C%20I%20want%20to%20rent%20a%20<?php the_title(); ?>"
                 class="btn-wa-detail">
@@ -147,7 +147,7 @@ if (!empty($option_image2)) {
                             stroke-linejoin="round" />
                     </svg>
                 </span>
-                <?php echo $btn; ?>
+                <?php echo esc_html($btn); ?>
             </a>
         </div>
     </div>

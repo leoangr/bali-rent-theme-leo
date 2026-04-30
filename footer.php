@@ -19,10 +19,10 @@ $btn = get_field('button_text', $front_page_id);
         <div class="option-card-footer">
             <h4 class="title-links-footer">Quick Links</h4>
             <div class="list-footer-links">
-                <a href="#home">Home</a>
-                <a href="#vehicles">Vehicles</a>
-                <a href="#about">About</a>
-                <a href="#faq">FAQ</a>
+                <a href="/#home">Home</a>
+                <a href="/#vehicles">Vehicles</a>
+                <a href="/#about">About</a>
+                <a href="/#faq">FAQ</a>
             </div>
         </div>
         <div class="option-card-footer">
