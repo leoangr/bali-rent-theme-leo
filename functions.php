@@ -2,6 +2,9 @@
 
 function bali_rent_setup() {
     add_theme_support('post-thumbnails');
+
+    add_theme_support('title-tag');
+
     register_nav_menus([
         'primary' => 'Primary Menu'
     ]);
@@ -31,6 +34,27 @@ function bali_theme_enqueue_scripts() {
     );
 }
 add_action('wp_enqueue_scripts', 'bali_theme_enqueue_scripts');
+
+add_filter('document_title_parts', function ($title) {
+
+    // halaman detail / single post / custom post type
+    if (is_singular()) {
+        $title['title'] = get_the_title();
+        $title['site'] = 'BaliRide';
+    }
+
+    // homepage
+    if (is_front_page()) {
+        $title['site'] = 'BaliRide';
+        $title['title'] = 'Vehicle Rental in Bali';
+    }
+
+    return $title;
+});
+
+add_filter('document_title_separator', function () {
+    return '|';
+});
 
 require get_template_directory() . '/inc/custom-post-type.php';
 require get_template_directory() . '/inc/custom-taxonomy.php';
