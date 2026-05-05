@@ -18,7 +18,7 @@ $wa = get_field('whatsapp_number', $front_page_id);
             <p class="desc-option-card-footer"><?php echo $footer_desc; ?></p>
         </div>
         <div class="option-card-footer">
-            <h4 class="title-links-footer">Quick Links</h4>
+            <h2 class="title-links-footer">Quick Links</h2>
             <div class="list-footer-links">
                 <a href="/#home">Home</a>
                 <a href="/#vehicles">Vehicles</a>
@@ -27,7 +27,7 @@ $wa = get_field('whatsapp_number', $front_page_id);
             </div>
         </div>
         <div class="option-card-footer">
-            <h4 class="title-links-footer">Contact</h4>
+            <h2 class="title-links-footer">Contact</h2>
             <div class="list-footer-links">
                 <p class="desc-option-card-footer"><?php echo $location; ?></p>
                 <a href="https://wa.me/<?php echo $wa; ?>?text=Hi%20BaliRide%2C%20I%20want%20to%20rent%20a%20vehicle"

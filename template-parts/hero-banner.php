@@ -10,7 +10,7 @@
 
 <?php if ($hero): ?>
     <section class="hero" id="home">
-        <img src="<?php echo esc_url($hero); ?>" alt="Hero Banner" loading="lazy">
+        <img src="<?php echo esc_url($hero); ?>" alt="Hero Banner" loading="eager">
         <div class="bg-shadow"></div>
         <div class="box-tagline">
             <h1><?php echo $title; ?></h1>

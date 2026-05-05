@@ -800,6 +800,7 @@ footer {
     font-family: var(--poppins);
     color: var(--accent);
     padding: 5px;
+    padding-left: 0;
 }
 
 .list-footer-links a:hover {
