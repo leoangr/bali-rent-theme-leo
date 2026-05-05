@@ -42,7 +42,7 @@ $query = new WP_Query([
                 </div>
 
                 <p class="desc-cust">"<?php echo esc_html($review); ?>"</p>
-                <h4 class="user-cust"><?php echo esc_html($name); ?></h4>
+                <p class="user-cust"><?php echo esc_html($name); ?></p>
 
             </div>
 

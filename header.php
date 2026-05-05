@@ -27,7 +27,7 @@
                 </a>
 
                 <div class="menu-mobile">
-                    <button class="menu-icon">
+                    <button class="menu-icon" aria-label="Menu Icon">
                         <span id="icon-menu">
                             <svg width="22" height="22" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">

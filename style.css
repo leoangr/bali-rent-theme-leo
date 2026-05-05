@@ -635,6 +635,7 @@ ul {
     font-size: 14px;
     font-family: var(--poppins);
     color: var(--foreground);
+    font-weight: 600;
 }
 
 .list-faq {

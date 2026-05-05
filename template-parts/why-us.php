@@ -64,7 +64,7 @@ $query = new WP_Query([
 
                 </span>
 
-                <h3 class="title-cu"><?php the_title(); ?></h3>
+                <h2 class="title-cu"><?php the_title(); ?></h2>
                 <p class="desc-cu"><?php echo esc_html($desc); ?></p>
 
             </div>

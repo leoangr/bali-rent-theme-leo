@@ -4,6 +4,7 @@ $front_page_id = get_option('page_on_front');
 $footer_desc = get_field('footer_desc', $front_page_id);
 $location = get_field('location_text', $front_page_id);
 $btn = get_field('button_text', $front_page_id);
+$wa = get_field('whatsapp_number', $front_page_id);
 
 ?>
 
@@ -29,7 +30,7 @@ $btn = get_field('button_text', $front_page_id);
             <h4 class="title-links-footer">Contact</h4>
             <div class="list-footer-links">
                 <p class="desc-option-card-footer"><?php echo $location; ?></p>
-                <a href="https://wa.me/6281234567890?text=Hi%20BaliRide%2C%20I%20want%20to%20rent%20a%20vehicle"
+                <a href="https://wa.me/<?php echo $wa; ?>?text=Hi%20BaliRide%2C%20I%20want%20to%20rent%20a%20vehicle"
                     class="btn-wa-footer">
                     <span>
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
